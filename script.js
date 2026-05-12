@@ -16,9 +16,7 @@ const menu = [
 {cat:"pizza",name:"Four Cheese",price:2450,img:"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500"},
 
 {cat:"drinks",name:"Mojito",price:690,img:"https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500"},
-{cat:"drinks",name:"Mango Lassi",price:750,img:"https://images.unsplash.com/photo-1626201850129-1c0b3c2f6f49?w=500&q=80"},
 {cat:"drinks",name:"Berry Fizz",price:790,img:"https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500"},
-{cat:"drinks",name:"Watermelon Juice",price:650,img:"https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?w=500&q=80"},
 
 {cat:"coffee",name:"Flat White",price:690,img:"https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=500"},
 {cat:"coffee",name:"Caramel Macchiato",price:790,img:"https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=500"},
@@ -27,9 +25,7 @@ const menu = [
 
 {cat:"dessert",name:"Lava Cake",price:990,img:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500"},
 {cat:"dessert",name:"Cheesecake",price:1150,img:"https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500"},
-{cat:"dessert",name:"Brownie Sundae",price:1050,img:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"},
-{cat:"dessert",name:"Red Velvet",price:950,img:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&q=80"}
-
+{cat:"dessert",name:"Brownie Sundae",price:1050,img:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"}
 ];
 
 let cart=[];
