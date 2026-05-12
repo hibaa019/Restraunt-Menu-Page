@@ -28,7 +28,7 @@ const menu = [
 {cat:"dessert",name:"Lava Cake",price:990,img:"https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500"},
 {cat:"dessert",name:"Cheesecake",price:1150,img:"https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500"},
 {cat:"dessert",name:"Brownie Sundae",price:1050,img:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500"},
-{cat:"dessert",name:"Red Velvet",price:950,img:"https://images.unsplash.com/photo-1614707267537-6c1a3c2f4c2d?w=500"}
+{cat:"dessert",name:"Red Velvet",price:950,img:"https://images.unsplash.com/photo-1586788680434-30d324b1d46f?w=500"}
 
 ];
 
