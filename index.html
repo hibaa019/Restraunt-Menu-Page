@@ -6,7 +6,6 @@
 <title>The Grand Fork</title>
 
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,23 +14,32 @@
   <div class="logo">The Grand <span>Fork</span></div>
 
   <button class="cart-btn" onclick="toggleCart()">
-    🛒 Cart <span id="cartCount">0</span>
+    🛒 Cart (<span id="cartCount">0</span>)
   </button>
 </header>
 
 <section class="hero">
-  <h1>Luxury Dining <em>Experience</em></h1>
-  <p>Premium burgers, pizza, pasta, drinks, coffee & desserts.</p>
+  <h1>Luxury Dining Experience</h1>
 </section>
 
 <main id="menu"></main>
 
-<!-- CART -->
+<!-- CART DRAWER -->
 <div id="cart" class="cart">
-  <h2>Your Cart</h2>
+  <div class="cart-header">
+    <h2>Your Cart</h2>
+    <button onclick="toggleCart()">✖</button>
+  </div>
+
   <div id="cartItems"></div>
-  <h3 id="total">Total: Rs 0</h3>
+
+  <div class="cart-footer">
+    <h3 id="total">Total: Rs 0</h3>
+    <button class="checkout-btn" onclick="checkout()">Checkout on WhatsApp</button>
+  </div>
 </div>
+
+<div id="overlay" onclick="toggleCart()"></div>
 
 <script src="script.js"></script>
 </body>
